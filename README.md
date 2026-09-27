@@ -72,15 +72,53 @@ Example target:
 4. Grafana visualizes the metrics through dashboards.
 5. Grafana Alerting monitors resource thresholds.
 
-## 📚 What I Learned
+## 🔧 How I Built This Project
 
-- Basic Prometheus architecture
-- Node Exporter and Linux metrics
-- PromQL queries
-- Creating Grafana dashboards
-- Configuring Grafana alerts
-- Running monitoring tools using Docker
-- Basic Linux server monitoring
+### 1. Set Up Docker
+
+Installed and verified Docker on the RHEL Linux server.
+
+### 2. Deploy Node Exporter
+
+Ran Node Exporter in a Docker container to collect Linux system metrics such as CPU, memory, and network statistics.
+
+### 3. Configure Prometheus
+
+Created a Prometheus configuration file and configured Node Exporter as a scrape target:
+
+`192.168.139.128:9100`
+
+Prometheus was then started using Docker.
+
+### 4. Set Up Grafana
+
+Deployed Grafana using Docker and connected it to Prometheus as a data source.
+
+### 5. Create Monitoring Dashboard
+
+Created Grafana panels using PromQL queries to monitor:
+
+- CPU Usage
+- RAM Usage
+- Disk Usage
+- Network Traffic
+
+### 6. Configure Alerts
+
+Created Grafana alerts for:
+
+- High CPU Usage — 80% threshold
+- High RAM Usage — 80% threshold
+
+### 7. Test Alerting
+
+Generated temporary CPU load on the Linux server and verified that the CPU alert changed to a firing state.
+
+After stopping the CPU load, the system returned to normal.
+
+### 8. Document the Project
+
+Added the Prometheus configuration, Grafana screenshots, and project documentation to GitHub.
 
 ## 👨‍💻 Project Purpose
 
