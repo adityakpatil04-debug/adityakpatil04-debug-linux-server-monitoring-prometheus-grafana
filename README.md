@@ -36,6 +36,18 @@ The Grafana dashboard includes:
 - Disk Usage
 - Network Traffic
 
+### Grafana Dashboard
+
+![Grafana Dashboard](screenshots/Grafana%20Dashboard.png)
+
+### CPU Usage
+
+![CPU Usage graph](screenshots/CPU%20Usage%20graph.png)
+
+### CPU Alert
+
+![CPU Alerts firing](screenshots/CPU%20Alerts%20firing.png)
+
 ## 🚨 Alerts
 
 Configured Grafana alerts for:
