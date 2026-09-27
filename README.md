@@ -27,28 +27,17 @@ Dashboard & Alerts
 - Grafana
 - PromQL
 
-## 📊 Monitoring Dashboard
-
-The Grafana dashboard includes:
-
-- CPU Usage
-- RAM Usage
-- Disk Usage
-- Network Traffic
-
 ### Grafana Dashboard
 
-![Grafana Dashboard](screenshots/Grafana%20Dashboard.png)
+![Grafana Dashboard](Grafana%20Dashboard.png)
 
 ### CPU Usage
 
-![CPU Usage graph](screenshots/CPU%20Usage%20graph.png)
+![CPU Usage graph](CPU%20Usage%20graph.png)
 
 ### CPU Alert
 
-![CPU Alerts firing](screenshots/CPU%20Alerts%20firing.png)
-
-## 🚨 Alerts
+![CPU Alerts firing](CPU%20Alerts%20firing.png)## 🚨 Alerts
 
 Configured Grafana alerts for:
 
